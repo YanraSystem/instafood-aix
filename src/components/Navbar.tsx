@@ -3,11 +3,10 @@
 import { useState, useEffect } from "react";
 
 const navLinks = [
-  { label: "Accueil", href: "#accueil" },
   { label: "Menu", href: "#menu" },
   { label: "Hummer", href: "#hummer" },
-  { label: "Notre histoire", href: "#concept" },
-  { label: "Nous trouver", href: "#location" },
+  { label: "A propos", href: "#concept" },
+  { label: "Contact", href: "#location" },
 ];
 
 export default function Navbar() {
@@ -30,9 +29,9 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
-        <a href="#accueil" className="flex items-center gap-2">
-          <span className="font-display text-3xl tracking-wider">
-            <span className="text-brand">INSTA</span>
+        <a href="#accueil" className="flex items-center">
+          <span className="font-display text-2xl tracking-wider">
+            <span className="text-gradient-insta">INSTA</span>
             <span className="text-white">FOOD</span>
           </span>
         </a>
@@ -43,32 +42,18 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-white/70 hover:text-brand transition-colors underline-brand"
+              className="text-sm font-medium text-white/60 hover:text-white transition-colors"
             >
               {link.label}
             </a>
           ))}
-        </div>
-
-        {/* CTA desktop */}
-        <a
-          href="tel:+33456572670"
-          className="hidden md:flex items-center gap-2 bg-brand hover:bg-brand-dark text-white font-semibold text-sm px-6 py-2.5 rounded-full transition-colors"
-        >
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+          <a
+            href="tel:+33456572670"
+            className="gradient-insta text-white font-semibold text-sm px-5 py-2 rounded-full transition-all hover:scale-105"
           >
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-          </svg>
-          Commander
-        </a>
+            Commander
+          </a>
+        </div>
 
         {/* Mobile hamburger */}
         <button
@@ -110,7 +95,7 @@ export default function Navbar() {
             ))}
             <a
               href="tel:+33456572670"
-              className="bg-brand hover:bg-brand-dark text-white font-semibold px-8 py-3 rounded-full transition-colors"
+              className="gradient-insta text-white font-semibold px-8 py-3 rounded-full"
             >
               Commander
             </a>

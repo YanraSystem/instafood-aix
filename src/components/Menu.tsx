@@ -88,13 +88,12 @@ export default function Menu() {
       <div className="max-w-7xl mx-auto">
         {/* Section header */}
         <div className="menu-title text-center mb-16">
-          <span className="text-sm font-medium text-brand uppercase tracking-widest">
-            Notre carte
-          </span>
-          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-white mt-4">
-            LE MENU
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-white">
+            LA <span className="text-gradient-insta">CARTE</span>
           </h2>
-          <div className="w-16 h-1 bg-brand mx-auto mt-6 rounded-full" />
+          <p className="text-white/40 mt-3 text-sm max-w-md mx-auto">
+            Choisis ta categorie et compose ton repas.
+          </p>
         </div>
 
         {/* Category tabs */}
@@ -105,7 +104,7 @@ export default function Menu() {
               onClick={() => setActiveCategory(category.id)}
               className={`flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-all ${
                 activeCategory === category.id
-                  ? "bg-brand text-white glow-brand"
+                  ? "gradient-insta text-white glow-brand"
                   : "bg-dark-card border border-dark-border text-white/60 hover:text-white hover:border-brand/30"
               }`}
             >

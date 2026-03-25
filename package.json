@@ -18,6 +18,7 @@
     "typescript": "^6.0.2"
   },
   "devDependencies": {
+    "@playwright/test": "^1.58.2",
     "@tailwindcss/postcss": "^4.2.2",
     "@types/node": "25.5.0",
     "autoprefixer": "^10.4.27",
