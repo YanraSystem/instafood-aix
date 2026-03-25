@@ -26,12 +26,12 @@ export default function Hero() {
       id="accueil"
       className="relative min-h-screen flex items-end pb-24 sm:pb-32 overflow-hidden"
     >
-      {/* Background: poster image + boomerang video */}
+      {/* Background: Ken Burns image (mobile) + boomerang video (desktop) */}
       <div className="absolute inset-0">
         <img
           src="/images/hero-bg.webp"
           alt=""
-          className="w-full h-full object-cover hero-kenburns"
+          className="w-full h-full object-cover hero-kenburns md:hidden"
         />
         <video
           autoPlay
@@ -39,9 +39,7 @@ export default function Hero() {
           loop
           playsInline
           preload="metadata"
-          poster="/images/hero-bg.webp"
-          className="absolute inset-0 w-full h-full object-cover"
-          dangerouslySetInnerHTML={undefined}
+          className="absolute inset-0 w-full h-full object-cover hidden md:block"
           ref={(el) => { if (el) el.setAttribute("webkit-playsinline", ""); }}
         >
           <source src="/hero-loop.mp4" type="video/mp4" />
