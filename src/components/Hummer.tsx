@@ -74,9 +74,9 @@ export default function Hummer() {
             {/* 3 options */}
             <div className="hummer-reveal mt-8 space-y-3">
               {[
-                { name: "1 Viande", price: "9,50", desc: "Le classique, deja enorme" },
-                { name: "2 Viandes", price: "11,50", desc: "Double viande, double plaisir", featured: true },
-                { name: "3 Viandes", price: "13,50", desc: "Le defi. T'es pret ?" },
+                { name: "H2", price: "9,80", desc: "2 steaks, 2 fromages" },
+                { name: "H3", price: "11,20", desc: "3 steaks, 3 fromages", featured: true },
+                { name: "H4", price: "12,60", desc: "4 steaks, 4 fromages. Le defi." },
               ].map((item) => (
                 <div
                   key={item.name}
