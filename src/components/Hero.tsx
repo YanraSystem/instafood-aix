@@ -31,14 +31,18 @@ export default function Hero() {
         <img
           src="/images/hero-bg.webp"
           alt=""
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover hero-kenburns"
         />
         <video
           autoPlay
           muted
           loop
           playsInline
+          preload="metadata"
+          poster="/images/hero-bg.webp"
           className="absolute inset-0 w-full h-full object-cover"
+          dangerouslySetInnerHTML={undefined}
+          ref={(el) => { if (el) el.setAttribute("webkit-playsinline", ""); }}
         >
           <source src="/hero-loop.mp4" type="video/mp4" />
         </video>
