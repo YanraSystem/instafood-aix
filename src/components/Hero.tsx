@@ -26,13 +26,22 @@ export default function Hero() {
       id="accueil"
       className="relative min-h-screen flex items-end pb-24 sm:pb-32 overflow-hidden"
     >
-      {/* Background image with Ken Burns */}
+      {/* Background: poster image + boomerang video */}
       <div className="absolute inset-0">
         <img
           src="/images/hero-bg.webp"
           alt=""
-          className="w-full h-full object-cover hero-kenburns"
+          className="w-full h-full object-cover"
         />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/hero-loop.mp4" type="video/mp4" />
+        </video>
       </div>
 
       {/* Dark overlay gradient */}
