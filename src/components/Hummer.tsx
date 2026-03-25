@@ -78,12 +78,21 @@ export default function Hummer() {
                 </div>
               )}
 
-              {/* Image placeholder */}
-              <div className="aspect-[4/3] bg-dark-lighter flex items-center justify-center relative">
+              {/* Image */}
+              <div className="aspect-[4/3] bg-dark-lighter flex items-center justify-center relative overflow-hidden">
+                {item.image ? (
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                ) : (
+                  <span className="font-display text-6xl text-brand/20">
+                    {index + 1}x
+                  </span>
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-card to-transparent" />
-                <span className="font-display text-6xl text-brand/20">
-                  {index + 1}x
-                </span>
               </div>
 
               {/* Content */}

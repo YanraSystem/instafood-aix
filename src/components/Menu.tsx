@@ -123,21 +123,26 @@ export default function Menu() {
               className="menu-item bg-dark-card border border-dark-border rounded-2xl p-5 card-hover group"
             >
               <div className="flex items-start gap-4">
-                {/* Placeholder image */}
-                <div className="w-20 h-20 rounded-xl bg-dark-lighter border border-dark-border flex-shrink-0 flex items-center justify-center overflow-hidden">
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    className="text-dark-muted"
-                  >
-                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-                    <circle cx="8.5" cy="8.5" r="1.5" />
-                    <polyline points="21 15 16 10 5 21" />
-                  </svg>
+                {/* Menu item image */}
+                <div className="w-20 h-20 rounded-xl bg-dark-lighter border border-dark-border flex-shrink-0 overflow-hidden">
+                  {item.image ? (
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      width={80}
+                      height={80}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-dark-muted">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                      </svg>
+                    </div>
+                  )}
                 </div>
 
                 <div className="flex-1 min-w-0">
