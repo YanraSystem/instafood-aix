@@ -4,7 +4,7 @@ export default function MobileCTA() {
   return (
     <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-dark/80 backdrop-blur-xl border-t border-dark-border p-3 flex gap-3">
       <a
-        href="tel:+33456572670"
+        href="tel:+33159580635"
         className="flex-1 gradient-insta text-white font-semibold text-sm py-3.5 rounded-full text-center transition-colors flex items-center justify-center gap-2"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

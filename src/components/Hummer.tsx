@@ -96,7 +96,7 @@ export default function Hummer() {
             </div>
 
             <a
-              href="tel:+33456572670"
+              href="tel:+33159580635"
               className="hummer-reveal inline-block mt-8 gradient-insta text-white font-semibold px-7 py-3.5 rounded-full hover:scale-105 transition-transform text-sm"
             >
               Commander le Hummer

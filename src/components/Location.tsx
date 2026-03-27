@@ -101,10 +101,10 @@ export default function Location() {
                 <div>
                   <h3 className="font-heading text-lg font-semibold text-white">Telephone</h3>
                   <a
-                    href="tel:+33456572670"
+                    href="tel:+33159580635"
                     className="text-brand text-lg font-medium mt-1 block hover:text-brand-light transition-colors"
                   >
-                    04 56 57 26 70
+                    01 59 58 06 35
                   </a>
                   <div className="flex flex-wrap gap-2 mt-3">
                     <span className="text-xs bg-dark-lighter border border-dark-border rounded-full px-3 py-1 text-white/40">

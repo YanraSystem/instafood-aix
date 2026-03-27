@@ -48,10 +48,10 @@ export default function Footer() {
               <p>543 Bd President Wilson</p>
               <p>73100 Aix-les-Bains</p>
               <a
-                href="tel:+33456572670"
+                href="tel:+33159580635"
                 className="text-brand hover:text-brand-light transition-colors"
               >
-                04 56 57 26 70
+                01 59 58 06 35
               </a>
               <p className="mt-2">Ouvert 7j/7 de 11h a minuit</p>
             </div>

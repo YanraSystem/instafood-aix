@@ -85,10 +85,10 @@ export default function Hero() {
             Voir le menu
           </a>
           <a
-            href="tel:+33456572670"
+            href="tel:+33159580635"
             className="hero-cta border border-white/20 hover:border-white/40 text-white font-medium px-7 py-3.5 rounded-full transition-all hover:bg-white/5 text-sm"
           >
-            04 56 57 26 70
+            01 59 58 06 35
           </a>
         </div>
       </div>

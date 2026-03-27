@@ -12,7 +12,7 @@ export default function FloatingCall() {
         <div className="flex flex-col gap-3 mb-2">
           {/* Phone */}
           <a
-            href="tel:+33456572670"
+            href="tel:+33159580635"
             className="flex items-center gap-3 bg-dark-card border border-dark-border rounded-2xl px-4 py-3 shadow-xl hover:border-brand/30 transition-all"
           >
             <div className="w-10 h-10 bg-green-500/10 rounded-xl flex items-center justify-center">

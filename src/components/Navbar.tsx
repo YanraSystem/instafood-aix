@@ -48,7 +48,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="tel:+33456572670"
+            href="tel:+33159580635"
             className="gradient-insta text-white font-semibold text-sm px-5 py-2 rounded-full transition-all hover:scale-105"
           >
             Commander
@@ -94,7 +94,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="tel:+33456572670"
+              href="tel:+33159580635"
               className="gradient-insta text-white font-semibold px-8 py-3 rounded-full"
             >
               Commander

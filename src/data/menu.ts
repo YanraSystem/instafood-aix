@@ -23,6 +23,7 @@ export const menuCategories: MenuCategory[] = [
         name: "La Boisee",
         description: "Fromage, poulet, poivrons et sauce fromagere",
         price: "11,90",
+        image: "/images/menu/pizza-creme.webp",
       },
       {
         name: "Boursin",
@@ -80,6 +81,7 @@ export const menuCategories: MenuCategory[] = [
         name: "Margarita",
         description: "Fromage et mozza",
         price: "9,00",
+        image: "/images/menu/pizza-tomate.webp",
       },
       {
         name: "Regina",
@@ -147,6 +149,7 @@ export const menuCategories: MenuCategory[] = [
         name: "Kebab",
         description: "Kebab et crudites",
         price: "7,50",
+        image: "/images/menu/sandwich-classique.webp",
       },
       {
         name: "Kefta",
@@ -199,6 +202,7 @@ export const menuCategories: MenuCategory[] = [
         name: "Blinde",
         description: "4 steaks, jambon de dinde, cheddar et crudites",
         price: "9,50",
+        image: "/images/menu/blind.webp",
       },
       {
         name: "Mixup",
@@ -214,6 +218,7 @@ export const menuCategories: MenuCategory[] = [
         name: "Buffalo",
         description: "3 steaks, oeuf, cheddar et crudites",
         price: "9,50",
+        image: "/images/menu/buffalo.webp",
       },
       {
         name: "Chicago",
@@ -245,6 +250,7 @@ export const menuCategories: MenuCategory[] = [
         description: "3 steaks 90g, oeuf, cheddar et crudites",
         price: "9,50",
         badge: "Specialite locale",
+        image: "/images/menu/le-73.webp",
       },
     ],
   },
@@ -310,6 +316,7 @@ export const menuCategories: MenuCategory[] = [
         name: "Simple",
         description: "1 viande et 1 sauce au choix",
         price: "7,50",
+        image: "/images/menu/tacos-simple.webp",
       },
       {
         name: "Double",
@@ -320,6 +327,7 @@ export const menuCategories: MenuCategory[] = [
         name: "Maxi",
         description: "3 viandes et 1 sauce au choix",
         price: "10,50",
+        image: "/images/menu/tacos-maxi.webp",
       },
       {
         name: "Big",
@@ -330,6 +338,7 @@ export const menuCategories: MenuCategory[] = [
         name: "Geant",
         description: "5 viandes et 1 sauce au choix",
         price: "14,50",
+        image: "/images/menu/tacos-geant.webp",
       },
     ],
   },
@@ -348,6 +357,7 @@ export const menuCategories: MenuCategory[] = [
         description: "3 steaks et 3 fromages",
         price: "11,20",
         badge: "Best-seller",
+        image: "/images/menu/hummer-2.webp",
       },
       {
         name: "H4",
@@ -366,11 +376,13 @@ export const menuCategories: MenuCategory[] = [
         name: "Cheese Burger",
         description: "1 steak et cheddar",
         price: "5,50",
+        image: "/images/menu/cheese-burger.webp",
       },
       {
         name: "Double Cheese",
         description: "2 steaks et cheddar",
         price: "7,50",
+        image: "/images/menu/double-cheese.webp",
       },
       {
         name: "Triple Cheese",
@@ -381,6 +393,7 @@ export const menuCategories: MenuCategory[] = [
         name: "Chicken Pane",
         description: "Poulet pane et cheddar",
         price: "8,00",
+        image: "/images/menu/chicken-burger.webp",
       },
       {
         name: "Fish",
@@ -428,6 +441,7 @@ export const menuCategories: MenuCategory[] = [
       {
         name: "Nuggets x5",
         price: "6,00",
+        image: "/images/menu/nuggets.webp",
       },
       {
         name: "Stick Mozza x5",
@@ -444,6 +458,7 @@ export const menuCategories: MenuCategory[] = [
       {
         name: "Frites Maison",
         price: "3,00",
+        image: "/images/menu/frites.webp",
       },
       {
         name: "Kid's Menu",
